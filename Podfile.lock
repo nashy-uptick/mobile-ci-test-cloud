@@ -1,0 +1,26 @@
+PODS:
+  - OCHamcrest (6.1.1)
+  - OCMockito (4.1.0):
+    - OCHamcrest (~> 6.0)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+
+DEPENDENCIES:
+  - OCMockito (~> 4.0)
+  - SVProgressHUD (~> 2.3.1)
+
+SPEC REPOS:
+  trunk:
+    - OCHamcrest
+    - OCMockito
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  OCHamcrest: 363e1bf738c3e8a94abe7c2c415f70d671adde38
+  OCMockito: bceefcd365252bcdf8b59c1b2bd23890805fc0d8
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+
+PODFILE CHECKSUM: 531133c9c7acf3bfd18af02be479254eb2afd9c6
+
+COCOAPODS: 1.15.2

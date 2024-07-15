@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "AD98C4FA-9B26-4918-A6B8-6C83A1C2A57F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HelloWorld.xcodeproj",
+      "identifier" : "50BF5F572C4528CA006E71FA",
+      "name" : "HelloWorld"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HelloWorld.xcodeproj",
+        "identifier" : "50BF5F6D2C4528CB006E71FA",
+        "name" : "HelloWorldTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HelloWorld.xcodeproj",
+        "identifier" : "50BF5F772C4528CB006E71FA",
+        "name" : "HelloWorldUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
